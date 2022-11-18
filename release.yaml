@@ -1,0 +1,28 @@
+ansible-roles:
+  ansible-roles:
+    repository: https://github.com/metal-stack-cloud/ansible-roles
+    version: main
+docker-images:
+  metal-stack-cloud:
+    api-server:
+      name: ghcr.io/metal-stack-cloud/api-server
+      tag: latest
+    console:
+      name: ghcr.io/metal-stack-cloud/console
+      tag: latest
+    status:
+      name: ghcr.io/metal-stack-cloud/status
+      tag: latest
+    accounting:
+      name: ghcr.io/metal-stack-cloud/accounting
+      tag: latest
+  third-party:
+    nsq:
+      name: nsqio/nsq
+      repository: https://github.com/nsqio/nsq
+      tag: v1.2.1
+helm-charts:
+  third-party:
+    meilisearch:
+      repository: https://meilisearch.github.io/meilisearch-kubernetes
+      version: 0.1.41
