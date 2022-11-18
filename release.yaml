@@ -13,8 +13,11 @@ docker-images:
     status:
       name: ghcr.io/metal-stack-cloud/status
       tag: latest
-    accounting:
-      name: ghcr.io/metal-stack-cloud/accounting
+    accounting-reporter:
+      name: ghcr.io/metal-stack-cloud/accounting-reporter
+      tag: latest
+    accounting-sender:
+      name: ghcr.io/metal-stack-cloud/accounting-sender
       tag: latest
   third-party:
     nsq:
