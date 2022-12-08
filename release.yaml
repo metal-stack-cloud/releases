@@ -12,7 +12,7 @@ docker-images:
       tag: latest
     api-server:
       name: ghcr.io/metal-stack-cloud/api-server
-      tag: v0.1.2
+      tag: v0.1.0
     console:
       name: ghcr.io/metal-stack-cloud/console
       tag: latest
