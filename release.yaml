@@ -4,20 +4,20 @@ ansible-roles:
     version: main
 docker-images:
   metal-stack-cloud:
-    api-server:
-      name: ghcr.io/metal-stack-cloud/api-server
-      tag: latest
-    console:
-      name: ghcr.io/metal-stack-cloud/console
-      tag: latest
-    status:
-      name: ghcr.io/metal-stack-cloud/status
-      tag: latest
     accounting-reporter:
       name: ghcr.io/metal-stack-cloud/accounting-reporter
       tag: latest
     accounting-sender:
       name: ghcr.io/metal-stack-cloud/accounting-sender
+      tag: latest
+    api-server:
+      name: ghcr.io/metal-stack-cloud/api-server
+      tag: v0.1.1
+    console:
+      name: ghcr.io/metal-stack-cloud/console
+      tag: latest
+    status:
+      name: ghcr.io/metal-stack-cloud/status
       tag: latest
   third-party:
     nsq:
