@@ -29,3 +29,6 @@ helm-charts:
     meilisearch:
       repository: https://meilisearch.github.io/meilisearch-kubernetes
       version: 0.1.49
+vectors:
+  metal-stack:
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.13.0/release.yaml
