@@ -31,4 +31,4 @@ helm-charts:
       version: 0.1.49
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.13.5/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.13.6/release.yaml
