@@ -18,7 +18,7 @@ docker-images:
       tag: v0.3.11
     status:
       name: ghcr.io/metal-stack-cloud/status
-      tag: v0.1.3
+      tag: v0.1.4
   third-party:
     nsq:
       name: nsqio/nsq
