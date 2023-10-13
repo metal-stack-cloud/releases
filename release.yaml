@@ -1,21 +1,21 @@
 ansible-roles:
   ansible-roles:
     repository: https://github.com/metal-stack-cloud/ansible-roles
-    version: v0.1.14
+    version: v0.1.16
 docker-images:
   metal-stack-cloud:
     accounting-reporter:
       name: ghcr.io/metal-stack-cloud/accounting-reporter
-      tag: v0.1.7
+      tag: v0.1.10
     accounting-sender:
       name: ghcr.io/metal-stack-cloud/accounting-sender
-      tag: v0.1.7
+      tag: v0.1.10
     api-server:
       name: ghcr.io/metal-stack-cloud/api-server
-      tag: v0.2.9
+      tag: v0.2.11
     console:
       name: ghcr.io/metal-stack-cloud/console
-      tag: v0.3.15
+      tag: v0.3.16
     status:
       name: ghcr.io/metal-stack-cloud/status
       tag: v0.1.4
@@ -26,4 +26,4 @@ docker-images:
       tag: v1.2.1
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.1/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.5/release.yaml
