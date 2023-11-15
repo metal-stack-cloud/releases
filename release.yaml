@@ -26,4 +26,4 @@ docker-images:
       tag: v1.2.1
 vectors:
   metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.10/release.yaml
+    url: https://raw.githubusercontent.com/metal-stack/releases/v0.15.11/release.yaml
