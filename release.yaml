@@ -15,7 +15,7 @@ docker-images:
       tag: v0.9.0
     console:
       name: ghcr.io/metal-stack-cloud/console
-      tag: v0.9.0
+      tag: v0.9.1
     status:
       name: ghcr.io/metal-stack-cloud/status
       tag: v0.2.2
