@@ -1,7 +1,7 @@
 ansible-roles:
   ansible-roles:
     repository: https://github.com/metal-stack-cloud/ansible-roles
-    version: v0.1.26
+    version: v0.1.27
 docker-images:
   metal-stack-cloud:
     accounting-reporter:
