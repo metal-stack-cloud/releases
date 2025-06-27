@@ -1,7 +1,20 @@
 ansible-roles:
   ansible-roles:
     repository: https://github.com/metal-stack-cloud/ansible-roles
-    version: v0.1.27
+    version: v0.1.29
+binaries:
+  metal-stack-cloud:
+    cli:
+      darwin:
+        url: https://github.com/metal-stack-cloud/cli/releases/download/v0.5.0/metal-darwin-amd64
+      linux:
+        url: https://github.com/metal-stack-cloud/cli/releases/download/v0.5.0/metal-darwin-arm64
+      repository: https://github.com/metal-stack-cloud/cli
+      version: v0.5.0
+      windows:
+        url: https://github.com/metal-stack-cloud/cli/releases/download/v0.5.0/metal-windows-amd64
+    terraform-provider-metal:
+      version: v1.2.0
 docker-images:
   metal-stack-cloud:
     accounting-reporter:
@@ -12,10 +25,10 @@ docker-images:
       tag: v0.1.15
     api-server:
       name: ghcr.io/metal-stack-cloud/api-server
-      tag: v0.11.0
+      tag: v0.11.2
     console:
       name: ghcr.io/metal-stack-cloud/console
-      tag: v0.10.0
+      tag: v0.11.1
     status:
       name: ghcr.io/metal-stack-cloud/status
       tag: v0.2.2
@@ -24,6 +37,3 @@ docker-images:
       name: nsqio/nsq
       repository: https://github.com/nsqio/nsq
       tag: v1.2.1
-vectors:
-  metal-stack:
-    url: https://raw.githubusercontent.com/metal-stack/releases/v0.21.4/release.yaml
