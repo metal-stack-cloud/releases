@@ -1,7 +1,7 @@
 ansible-roles:
   ansible-roles:
     repository: https://github.com/metal-stack-cloud/ansible-roles
-    version: v0.1.31
+    version: v0.1.32
 binaries:
   metal-stack-cloud:
     cli:
