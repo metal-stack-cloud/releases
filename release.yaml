@@ -25,7 +25,7 @@ docker-images:
       tag: v0.1.15
     api-server:
       name: ghcr.io/metal-stack-cloud/api-server
-      tag: v0.12.1
+      tag: v0.13.0
     console:
       name: ghcr.io/metal-stack-cloud/console
       tag: v0.11.3
