@@ -48,7 +48,7 @@ jobs:
     - name: Install Oras
       uses: oras-project/setup-oras@v1
 
-    - name: Publish and sign
+    - name: Publish
       run: |
         tar -czvf release.tar.gz release.yaml
 
