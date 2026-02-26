@@ -15,7 +15,7 @@ binaries:
       windows:
         url: https://github.com/metal-stack-cloud/cli/releases/download/v0.5.5/metal-windows-amd64
     terraform-provider-metal:
-      version: v1.2.0
+      version: v1.2.1
 docker-images:
   metal-stack-cloud:
     accounting-reporter:
