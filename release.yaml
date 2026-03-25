@@ -2,7 +2,7 @@ ansible-roles:
   ansible-roles:
     oci: ghcr.io/metal-stack-cloud/ansible-roles
     repository: https://github.com/metal-stack-cloud/ansible-roles
-    version: v0.1.35
+    version: v0.1.36
 binaries:
   metal-stack-cloud:
     cli:
