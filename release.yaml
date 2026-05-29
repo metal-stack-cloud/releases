@@ -2,7 +2,7 @@ ansible-roles:
   ansible-roles:
     oci: ghcr.io/metal-stack-cloud/ansible-roles
     repository: https://github.com/metal-stack-cloud/ansible-roles
-    version: v0.1.38
+    version: v0.1.39
 binaries:
   metal-stack-cloud:
     cli:
@@ -20,19 +20,19 @@ docker-images:
   metal-stack-cloud:
     accounting-reporter:
       name: ghcr.io/metal-stack-cloud/accounting-reporter
-      tag: v0.1.16
+      tag: v0.1.17
     accounting-sender:
       name: ghcr.io/metal-stack-cloud/accounting-sender
-      tag: v0.1.16
+      tag: v0.1.17
     api-server:
       name: ghcr.io/metal-stack-cloud/api-server
-      tag: v0.13.8
+      tag: v0.13.10
     console:
       name: ghcr.io/metal-stack-cloud/console
-      tag: v0.12.7
+      tag: v0.12.9
     status:
       name: ghcr.io/metal-stack-cloud/status
-      tag: v0.2.3
+      tag: v0.2.4
   third-party:
     nsq:
       name: nsqio/nsq
